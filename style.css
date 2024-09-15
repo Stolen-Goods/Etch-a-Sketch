@@ -5,17 +5,22 @@
 
 h1 {
     text-align: center;
+    margin-bottom: 1.5em;
 }
 
 #main-container {
-    width: 33%;
+    width: 38%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-   justify-content: center;
+
 }
 
 .square {
     padding: 1em;
     border: 1px lightgray solid;
+}
+
+.paint {
+    background-color: black;
 }
