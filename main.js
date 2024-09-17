@@ -10,11 +10,17 @@ function grid() {
     art.addEventListener("mouseover", () => {
         art.classList.add("paint");
     })
+    }
+    const reset = document.getElementById("reset");
+    reset.addEventListener("click", () => {
+        const response = prompt("Reset the sketchpad? Yes or No");
+        if (response === "Yes" || response === "yes") {
+            location.reload();
+        } else {
+            return;
+        }
+    })
 }
-}
-
-
-
 
 grid();
 

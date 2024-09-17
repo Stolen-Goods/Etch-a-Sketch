@@ -8,17 +8,23 @@ h1 {
     margin-bottom: 1.5em;
 }
 
-#main-container {
-    width: 38%;
+#reset {
+    padding: 1em 1.5em;
     margin: auto;
+    display: block;
+}
+
+#main-container {
+    width: 29%;
+    margin: 2em auto;
     display: flex;
     flex-wrap: wrap;
-
+    background-color: white;
 }
 
 .square {
     padding: 1em;
-    border: 1px lightgray solid;
+    border: .5px lightgray solid;
 }
 
 .paint {
